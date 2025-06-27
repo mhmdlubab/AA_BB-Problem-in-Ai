@@ -1,6 +1,6 @@
 from collections import deque # its like a queue, we'll use it for BFS
 
-# to add colors in the console using print function
+# to add colors in the console using the print function
 RED = '\033[91m'
 GREEN = '\033[92m'
 RESET = '\033[0m' # we need to do it in the end of the fstring to reset or the next print calls will be the last color we changed to text to
