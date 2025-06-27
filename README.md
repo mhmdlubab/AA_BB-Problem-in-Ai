@@ -1,6 +1,12 @@
 # BFS 5-Tile Puzzle Solver
 
-A Python implementation of a BFS solver for a 5-tile puzzle with 2 A's, 2 B's, and an empty space. Moves follow strict rules for A and B, and the program finds the shortest path from a given start state to the goal state, showing success or failure if it reached a blocked state.
+A Python implementation of a BFS solver for a 5-tile puzzle with 2 A's, 2 B's, and an empty space. Moves follow strict rules:
+
+A can move only to the right to the empty space, or A can jump over only one A or B to the right, and into the empty space.
+
+B can move only to the left to the empty space, or B can jump over only one A or B to the left, and into the empty space.
+
+The program finds the shortest path from a given start state to the goal state, showing success or failure if it reaches a blocked state.
 
 ## Features
 
