@@ -1,4 +1,4 @@
-from collections import deque # its like a queue, we'll use it for BFS
+from collections import deque # it's like a queue, we'll use it for BFS
 
 # to add colors in the console using the print function
 RED = '\033[91m'
